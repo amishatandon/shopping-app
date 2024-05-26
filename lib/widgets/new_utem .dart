@@ -176,7 +176,7 @@ class _NewItemState extends State<NewItem> {
                   ElevatedButton(
                     onPressed: _isSending ? null : _saveItem,
                     child: _isSending
-                        ? SizedBox(
+                        ? const SizedBox(
                             height: 16,
                             width: 16,
                             child: CircularProgressIndicator())
